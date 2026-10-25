@@ -40,7 +40,7 @@
   <div class="lang" id="es" lang="es-419" data-title="Política de Privacidad · Amore Meet">
     <h1>Política de Privacidad</h1>
     <p class="sub">Chat · Match · Love</p>
-    <p class="updated">Última actualización: 3 de octubre de 2026</p>
+    <p class="updated">Última actualización: 25 de octubre de 2026</p>
 
     <h2>1. Quiénes somos</h2>
     <p>Amore Meet es operado por DreamcodeStudio, Salsomaggiore Terme (PR), Italia. Para cualquier solicitud sobre privacidad: <a href="mailto:salsostaff20@gmail.com">salsostaff20@gmail.com</a>.</p>
@@ -54,7 +54,9 @@
       <li><strong>Chat</strong>: mensajes de texto, fotos, audio, video, GIF, reacciones con emoji, almacenados en Supabase.</li>
       <li><strong>Verificación</strong>: selfies enviadas para la verificación del perfil (visibles solo para los moderadores, eliminadas después de la revisión).</li>
       <li><strong>Técnicos</strong>: token FCM para las notificaciones push, IP, modelo del dispositivo, versión de la app.</li>
-      <li><strong>Pagos</strong>: gestionados por Google Play Billing / Apple In-App Purchase. Nosotros solo conservamos el ID de la transacción y los productos comprados.</li>
+      <li><strong>Pagos</strong>: gestionados por Google Play Billing / Apple In-App Purchase (en la versión web, por Stripe). Nosotros solo conservamos el ID de la transacción y los productos comprados.</li>
+      <li><strong>Invitaciones</strong>: si te registras con el enlace o el código de un amigo, guardamos quién te invitó, para dar a ambos la misma recompensa.</li>
+      <li><strong>Medición de anuncios (solo app Android)</strong>: eventos de uso de la app (instalación y apertura, registro completado, primera foto, primer match, primer mensaje, compras con su importe) junto con el identificador de publicidad del dispositivo. Ver sección 6 bis.</li>
     </ul>
 
     <h2>3. Para qué usamos tus datos</h2>
@@ -77,11 +79,16 @@
     <p>No vendemos tus datos. Solo los compartimos con los proveedores técnicos necesarios:</p>
     <ul>
       <li><strong>Supabase</strong> (base de datos, almacenamiento, autenticación, tiempo real)</li>
-      <li><strong>Google Firebase</strong> (notificaciones push)</li>
+      <li><strong>Google Firebase</strong> (notificaciones push y Firebase Analytics)</li>
+      <li><strong>Meta Platforms</strong> (Meta SDK / App Events: medición de los anuncios de Facebook e Instagram)</li>
       <li><strong>Google Play / Apple App Store</strong> (pagos)</li>
+      <li><strong>Stripe</strong> (pagos en la versión web)</li>
       <li><strong>Twilio / MessageBird</strong> (SMS OTP, si usas el inicio de sesión por teléfono)</li>
       <li><strong>Giphy</strong> (búsqueda anónima de GIF)</li>
     </ul>
+
+    <h2>6 bis. Medición de anuncios (Meta SDK y Firebase Analytics)</h2>
+    <p>Hacemos publicidad de Amore Meet en Facebook e Instagram. Para saber qué anuncios funcionan, la app de Android incluye el SDK de Meta (App Events) y Firebase Analytics de Google. Solo se activan <strong>después de que aceptas los Términos</strong> al crear la cuenta o iniciar sesión. Envían: instalación y apertura de la app, registro completado, primera foto de perfil, primer match, primer mensaje enviado y compras confirmadas (producto, importe y moneda), con el identificador de publicidad del dispositivo. <strong>No</strong> enviamos el contenido de tus mensajes, tus fotos, tu posición ni los datos de tu perfil. Meta y Google tratan estos datos según sus propias políticas (<a href="https://www.facebook.com/privacy/policy/">Meta</a>, <a href="https://policies.google.com/privacy">Google</a>). Puedes limitarlo en cualquier momento: en Android, Ajustes → Google → Anuncios → "Eliminar el ID de publicidad"; para Meta también desde la "Configuración de anuncios" de tu cuenta de Facebook/Instagram. La versión web no usa ninguno de los dos.</p>
 
     <h2>7. Conservación</h2>
     <p>Conservamos tus datos mientras la cuenta esté activa. Si eliminas la cuenta desde Ajustes, el perfil, las fotos, los matches y los chats se borran de inmediato; las selfies de verificación en un plazo de 30 días. Los registros técnicos se rotan después de 90 días.</p>
@@ -108,7 +115,7 @@
   <div class="lang" id="it" lang="it" data-title="Privacy Policy · Amore Meet">
     <h1>Privacy Policy</h1>
     <p class="sub">Chat · Match · Love</p>
-    <p class="updated">Ultimo aggiornamento: 3 ottobre 2026</p>
+    <p class="updated">Ultimo aggiornamento: 25 ottobre 2026</p>
 
     <h2>1. Chi siamo</h2>
     <p>Amore Meet è gestito da DreamcodeStudio, Salsomaggiore Terme (PR), Italia. Per qualsiasi richiesta privacy: <a href="mailto:salsostaff20@gmail.com">salsostaff20@gmail.com</a>.</p>
@@ -122,7 +129,9 @@
       <li><strong>Chat</strong>: messaggi di testo, foto, audio, video, GIF, reazioni emoji, archiviati su Supabase.</li>
       <li><strong>Verifica</strong>: selfie inviati per la verifica del profilo (visibili solo ai moderatori, eliminati dopo la revisione).</li>
       <li><strong>Tecnici</strong>: token FCM per le notifiche push, IP, modello del dispositivo, versione app.</li>
-      <li><strong>Pagamenti</strong>: gestiti da Google Play Billing / Apple In-App Purchase. Noi conserviamo solo l'ID transazione e i prodotti acquistati.</li>
+      <li><strong>Pagamenti</strong>: gestiti da Google Play Billing / Apple In-App Purchase (nella versione web, da Stripe). Noi conserviamo solo l'ID transazione e i prodotti acquistati.</li>
+      <li><strong>Inviti</strong>: se ti registri con il link o il codice di un amico, conserviamo chi ti ha invitato, per dare a entrambi la stessa ricompensa.</li>
+      <li><strong>Misurazione delle pubblicità (solo app Android)</strong>: eventi d'uso dell'app (installazione e apertura, registrazione completata, prima foto, primo match, primo messaggio, acquisti con il loro importo) insieme all'ID pubblicità del dispositivo. Vedi sezione 6 bis.</li>
     </ul>
 
     <h2>3. Per cosa usiamo i tuoi dati</h2>
@@ -145,11 +154,16 @@
     <p>Non vendiamo i tuoi dati. Li condividiamo solo con i fornitori tecnici necessari:</p>
     <ul>
       <li><strong>Supabase</strong> (database, storage, auth, realtime)</li>
-      <li><strong>Google Firebase</strong> (push notifications)</li>
+      <li><strong>Google Firebase</strong> (notifiche push e Firebase Analytics)</li>
+      <li><strong>Meta Platforms</strong> (Meta SDK / App Events: misurazione delle pubblicità su Facebook e Instagram)</li>
       <li><strong>Google Play / Apple App Store</strong> (pagamenti)</li>
+      <li><strong>Stripe</strong> (pagamenti nella versione web)</li>
       <li><strong>Twilio / MessageBird</strong> (SMS OTP, se usi login telefono)</li>
       <li><strong>Giphy</strong> (ricerca GIF anonima)</li>
     </ul>
+
+    <h2>6 bis. Misurazione delle pubblicità (Meta SDK e Firebase Analytics)</h2>
+    <p>Facciamo pubblicità ad Amore Meet su Facebook e Instagram. Per sapere quali annunci funzionano, l'app Android include l'SDK di Meta (App Events) e Firebase Analytics di Google. Si attivano solo <strong>dopo che accetti i Termini</strong> creando l'account o accedendo. Inviano: installazione e apertura dell'app, registrazione completata, prima foto del profilo, primo match, primo messaggio inviato e acquisti confermati (prodotto, importo e valuta), con l'ID pubblicità del dispositivo. <strong>Non</strong> inviamo il contenuto dei tuoi messaggi, le tue foto, la tua posizione né i dati del profilo. Meta e Google trattano questi dati secondo le proprie informative (<a href="https://www.facebook.com/privacy/policy/">Meta</a>, <a href="https://policies.google.com/privacy">Google</a>). Puoi limitarlo in qualsiasi momento: su Android, Impostazioni → Google → Annunci → "Elimina ID pubblicità"; per Meta anche dalle "Preferenze inserzioni" del tuo account Facebook/Instagram. La versione web non usa nessuno dei due.</p>
 
     <h2>7. Conservazione</h2>
     <p>Conserviamo i tuoi dati finché l'account è attivo. Se elimini l'account dalle Impostazioni, profilo, foto, match e chat vengono cancellati immediatamente; le selfie di verifica entro 30 giorni. I log tecnici vengono ruotati dopo 90 giorni.</p>
@@ -176,7 +190,7 @@
   <div class="lang" id="en" lang="en" data-title="Privacy Policy · Amore Meet">
     <h1>Privacy Policy</h1>
     <p class="sub">Chat · Match · Love</p>
-    <p class="updated">Last updated: 3 October 2026</p>
+    <p class="updated">Last updated: 25 October 2026</p>
 
     <h2>1. Who we are</h2>
     <p>Amore Meet is operated by DreamcodeStudio, Salsomaggiore Terme (PR), Italy. For any privacy request: <a href="mailto:salsostaff20@gmail.com">salsostaff20@gmail.com</a>.</p>
@@ -190,7 +204,9 @@
       <li><strong>Chat</strong>: text messages, photos, audio, video, GIFs, emoji reactions, stored on Supabase.</li>
       <li><strong>Verification</strong>: selfies sent for profile verification (visible only to moderators, deleted after review).</li>
       <li><strong>Technical</strong>: FCM token for push notifications, IP address, device model, app version.</li>
-      <li><strong>Payments</strong>: handled by Google Play Billing / Apple In-App Purchase. We only keep the transaction ID and the products purchased.</li>
+      <li><strong>Payments</strong>: handled by Google Play Billing / Apple In-App Purchase (on the web version, by Stripe). We only keep the transaction ID and the products purchased.</li>
+      <li><strong>Invites</strong>: if you sign up with a friend's link or code, we keep who invited you, to give you both the same reward.</li>
+      <li><strong>Ad measurement (Android app only)</strong>: app usage events (install and open, registration completed, first photo, first match, first message, purchases with their amount) together with the device's advertising ID. See section 6a.</li>
     </ul>
 
     <h2>3. What we use your data for</h2>
@@ -213,11 +229,16 @@
     <p>We do not sell your data. We share it only with the technical providers we need:</p>
     <ul>
       <li><strong>Supabase</strong> (database, storage, auth, realtime)</li>
-      <li><strong>Google Firebase</strong> (push notifications)</li>
+      <li><strong>Google Firebase</strong> (push notifications and Firebase Analytics)</li>
+      <li><strong>Meta Platforms</strong> (Meta SDK / App Events: measuring our Facebook and Instagram ads)</li>
       <li><strong>Google Play / Apple App Store</strong> (payments)</li>
+      <li><strong>Stripe</strong> (payments on the web version)</li>
       <li><strong>Twilio / MessageBird</strong> (SMS OTP, if you use phone login)</li>
       <li><strong>Giphy</strong> (anonymous GIF search)</li>
     </ul>
+
+    <h2>6a. Ad measurement (Meta SDK and Firebase Analytics)</h2>
+    <p>We advertise Amore Meet on Facebook and Instagram. To know which ads work, the Android app includes Meta's SDK (App Events) and Google's Firebase Analytics. They are switched on only <strong>after you accept the Terms</strong> when you create an account or sign in. They send: app install and open, registration completed, first profile photo, first match, first message sent and confirmed purchases (product, amount and currency), with the device's advertising ID. We do <strong>not</strong> send the content of your messages, your photos, your location or your profile details. Meta and Google handle this data under their own policies (<a href="https://www.facebook.com/privacy/policy/">Meta</a>, <a href="https://policies.google.com/privacy">Google</a>). You can limit it at any time: on Android, Settings → Google → Ads → "Delete advertising ID"; for Meta also from the "Ad preferences" of your Facebook/Instagram account. The web version uses neither.</p>
 
     <h2>7. Retention</h2>
     <p>We keep your data for as long as your account is active. If you delete your account from Settings, your profile, photos, matches and chats are deleted immediately; verification selfies within 30 days. Technical logs are rotated after 90 days.</p>
